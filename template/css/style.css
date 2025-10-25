@@ -49,6 +49,23 @@ section {
   width: 40%;
 }
 
+
+@media screen and (max-width: 600px) {
+  .container {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width: 900px) {
+  section {
+    background-color: blue;
+    width: 33%;
+  }
+
+  .thiccOne {
+    display: none;
+  }
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
